@@ -1,0 +1,36 @@
+# Author:  Matthew E. Miller
+# Date: 1/1/2020
+# Medium: https://medium.com/@matthew_earl_miller (where this is being published)
+# Github: https://github.com/matmill5
+# Linkedin: https://www.linkedin.com/in/matthew-miller-engineer/
+# StackOverflow: https://stackoverflow.com/users/11937169/matthew-e-miller?tab=profile
+
+# Command 1: Enter Windows Subsystem for Linux
+PS C:\Users\Matthew\Desktop\Project> wsl
+
+# Command 2: Cleanup
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ sudo apt-get clean
+
+# Command 3: Update
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ sudo apt-get update
+
+# Command 4: Get Python 3 on your WSL
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ sudo apt install python3
+
+Command 5: Get Python PIP
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ sudo apt install python-pip
+
+Command 6: Get poppler-utils
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ sudo apt install poppler-utils
+
+Command 7: Get pdf2image (dependant on poppler and inspiration for article)
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ pip install pdf2image
+
+Command 8: Get pathlib
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ pip install pathlib
+
+Command 9: Get pytesseract (if you're doing OCR)
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ pip install pytesseract
+
+Command 10: Get tesseract-ocr (if you're doing OCR)
+user@device_name:/mnt/c/Users/Matthew/Desktop/Project$ sudo apt-get install tesseract-ocr
